@@ -2,13 +2,13 @@
 
 stdenv.mkDerivation rec {
   pname = "kitsas";
-  version = "4.0.5";
+  version = "5.6";
 
   src = fetchFromGitHub {
     owner = "artoh";
     repo = "kitupiikki";
     rev = "v${version}";
-    hash = "sha256-ODl1yrtrCVhuBWbA1AvHl22d+JSdySG/Gi2hlpVW3jg=";
+    hash = "sha256-EQqFSaMcRebxY+TYjbi0ENaii5VYrVPwB2SjxAo9DMs=";
   };
 
   postPatch = ''
